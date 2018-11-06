@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!--Navbar containing mnnit logo and title-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid"><br>
+		<div class="row">
+			<div class="col-md-5">
+				<a class="navbar-brand" href="#">
+					<img class="d-inline-block align-top" src="https://www.noticebard.com/wp-content/uploads/2017/12/logonew1.png" alt="logo" width="300" height="200">
+				</a>
+			</div>
+		
+			<div class="col-md-7"><br><br>
+				<div class="well"><h2 widht>MNNIT Hostel Management System</h2></div>
+			</div>  
+		</div>    
+	</div>
+</nav>
+
+<div class="container" style="background-color:">
+<br><br><br><br><br><br><br><br><br><br><br><div class="container"><hr></div>
+
+<div class="container">	
+
+			<ul class="nav nav-pills">		
+				<li class="active"><a data-toggle="pill" href="#profile">Profile</a></li>								
+				<li><a href="#password" data-toggle="pill">Change Password</a></li>
+			</ul><hr><br><br>
+							
+				<div class="tab-content">	
+					
+<!--Profile tab-->										
+					<div class="tab-pane fade in active" id="profile">	
+<!--Profile form -->												
+						<form class="form-horizontal">
+<!--Name-->							
+							<div class="form-group"> 
+								<label class="control-label col-md-2" for="name">Name :</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+									</div>
+									<div class="col-md-2"></div>
+							</div>
+
+<!--Registration Number-->								
+							<div class="form-group">
+								<label class="control-label col-md-2" for="regno">Registration Number :</label>
+									<div class="col-md-8">
+										<input type="string" class="form-control" id="regno" placeholder="Reg. No." name="regno"> 
+									</div>
+									<div class="col-md-2"></div>
+							</div>
+
+<!--Program-->								
+							<div class="form-group dropdown"> 
+								<label class="control-label col-md-2" for="program">Program :</label>
+									<div class="col-md-8">
+										<select class="form-control" id="program">
+											<option></option>
+											<option>Bachelor of Technology (B.Tech.)</option>
+											<option>Master of Technology (M.Tech.)</option>
+											<option>Master of Computer Applications (M.C.A.)</option>
+											<option>Master of Business Administration (M.B.A.)</option>
+											<option>Master of Science in Mathematics (M.Sc.)</option>									
+										</select>
+									</div>
+									<div class="col-md-2"></div>
+							</div>
+
+<!--Branch-->								
+							<div class="form-group"> 
+								<label class="control-label col-md-2" for="branch">Branch :</label>
+									<div class="col-md-8">
+										<select class="form-control" id="branch">
+											<option></option>
+											<option>Bio-Technology</option>
+											<option>Chemical Engineering</option>
+											<option>Civil Engineering</option>
+											<option>Computer Science and Engineering</option>
+											<option>Electrical Engineering</option>
+											<option>Electronics and Communication Engineering</option>									
+											<option>Information Technology</option>
+											<option>Mechanical Engineering</option>
+											<option>Production and Industrial Engineering</option>
+											<option>Applied Mechanics</option>
+											<option>GIS Cell</option>
+											<option>N/A</option>
+										</select>
+									</div>
+									<div class="col-md-2"></div>
+							</div>
+
+<!--Hostel-->								
+							<div class="form-group"> 
+								<label class="control-label col-md-2" for="hostel">Hostel :</label>
+									<div class="col-md-8">
+										<select class="form-control" id="hostel">
+											<option></option>
+											<option>Swami Vivekanand Boys Hostel (S.V.B.H.) </option>
+											<option>Kamla Nehru Girls Hostel (K.N.G.H.) </option>
+											<option>Sarojini Naydu Girls Hostel (S.N.G.H.) </option>
+											<option>Internation House (I.H.) </option>
+											<option>PG Hostel</option>
+											<option>Tilak Hostel</option>
+											<option>Patel Hostel</option>
+											<option>Malviya Hostel</option>
+											<option>Tondon Hostel</option>
+											<option>Raman Hostel</option>
+											<option>Tagor Hostel</option>
+										</select>
+									</div>
+									<div class="col-md-2"></div>
+							</div>
+	
+<!--Room Number-->	
+							<div class="form-group"> 
+								<label class="control-label col-md-2" for="room">Room Number :</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" id="room" placeholder="Room No." name="room">
+									</div>
+									<div class="col-md-2"></div>
+							</div>
+
+<!--Contact Number-->								
+							<div class="form-group"> 
+								<label class="control-label col-md-2" for="contact">Contact Number :</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" id="contact" placeholder="Contact No." name="contact">
+									</div>
+									<div class="col-md-2"></div>
+							</div>									
+
+<!--Email-->								
+							<div class="form-group">
+								<label class="control-label col-md-2" for="email">Email :</label>
+									<div class="col-md-8">
+										<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+									</div>
+									<div class="col-md-2"></div>
+							</div>
+
+<!--Upload Photo-->								
+							<div class="form-group"><br><br>									
+								<label class="control-label col-md-2" for="fileupload">Upload Photo :</label>
+									<div class="col-md-5">
+										<input type="file" name="fileupload" value="fileupload" id="fileupload">										
+									</div>
+									<div class="col-md-5">
+										<input type="image" src="fileupload" alt="Photo" width="100">
+									</div>
+							</div><br><br>
+							
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-primary z-depth-2">Submit</button>
+								</div>
+							</div>
+		
+						</form>
+					</div>						  											
+
+<!--Change Password tab-->						
+					<div class="tab-pane fade" id="password">
+<!--Change Password form -->						
+						<form class="form-horizontal">
+<!--Current Password-->						
+							<div class="form-group">
+								<label class="control-label col-md-2" for="currentpswd">Current Password :</label>
+									<div class="col-md-8">
+										<input type="password" class="form-control" id="currentpswd" placeholder="Enter your current password" name="currentpswd">
+									</div>
+									<div class="col-md-2"></div>
+							</div>
+
+<!--New Password-->								
+							<div class="form-group">
+								<label class="control-label col-md-2" for="pswd">New Password :</label>
+									<div class="col-md-8">								
+										<input type="password" class="form-control" id="pswd" placeholder="Enter new password" name="pswd">
+									</div>
+									<div class="col-md-2"></div>
+							</div><br><br>
+							
+							<div class="form-group">						
+								<div class="col-sm-offset-2 col-sm-8">
+									<button class="btn btn-primary">Update</button><br><br><br><br>
+								</div>																	
+							</div>
+  
+						</form>
+					</div>
+					
+				</div>	
+		
+</div>					
+</div>
+
+</body>
+</html>
+		

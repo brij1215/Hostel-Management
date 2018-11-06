@@ -1,0 +1,15 @@
+ <style>
+	div.container-fluid{border-style: ridge;}
+	div.jumbotron jumbotron-fluid{border-style: ridge;}
+	
+	.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: black;
+		color: white;
+		text-align: center;
+	}
+
+  </style>
